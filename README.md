@@ -1,7 +1,7 @@
 # revShellAndroid
 revShell smali code for android OS
 
-<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/revShellAndroid.png" width="500">  
+<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/revShell.png" width="500">  
 
 
 ## Disclaimer
