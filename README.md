@@ -42,5 +42,5 @@ To use this material, it is necessary to:
 ```
 nc -nlvp 9001
 ```
-<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/01.png" width="300">  
+<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/01.png" width="500">  
 
