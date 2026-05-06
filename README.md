@@ -30,7 +30,17 @@ The characteristics of this type of reverse shell are as follows:
 - Auto-reconnect — If the connection drops, it retries every 5 seconds
 - Disguised notification — "Game Services" to appear legitimate
 
+
+## How to inject reverse Shell
 To use this material, it is necessary to:
 - decompile a specific APK
 - modify the manifest by adding the indicated permissions and the directive in the application tag android:usesCleartextTraffic="true"
 - modify AndroidLauncher.smali by inserting, in onCreate, the call to reverseShell. The reverseShell method is inside AndroidLauncher.smali. In the same folder where AndroidLauncher is located, a set of supporting files must also be added: those saved inside the two folders.
+- Compile the new code
+- Sign the apk and install it on Android
+- Activate a listener
+```
+nc -nlvp 9001
+```
+<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/01.png" width="500">  
+
