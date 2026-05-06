@@ -1,7 +1,7 @@
 # revShellAndroid
 revShell smali code for android OS
 
-<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/revShell.png" width="500">  
+<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/revShell.png" width="800">  
 
 
 ## Disclaimer
@@ -42,5 +42,5 @@ To use this material, it is necessary to:
 ```
 nc -nlvp 9001
 ```
-<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/01.png" width="500">  
+<img src="https://github.com/dokDork/revShellAndroid/raw/main/images/01.png" width="300">  
 
