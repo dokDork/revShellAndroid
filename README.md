@@ -25,10 +25,10 @@ The **persistent-revShell** folder contains:
 This material ensures that when the Android app, into which this code has been injected, is executed, a reverse shell is initiated toward a specific IP:Port.
 When the app is closed, the reverse shell remains active.
 The characteristics of this type of reverse shell are as follows:
-- Foreground Service — Remains active even after closing the app
-- Auto-restart — If killed, onDestroy() immediately restarts it
-- Auto-reconnect — If the connection drops, it retries every 5 seconds
-- Disguised notification — "Game Services" to appear legitimate
+   - Foreground Service — Remains active even after closing the app
+   - Auto-restart — If killed, onDestroy() immediately restarts it
+   - Auto-reconnect — If the connection drops, it retries every 5 seconds
+   - Disguised notification — "Game Services" to appear legitimate
 
 
 ## How to inject reverse Shell
